@@ -18,6 +18,8 @@ public class MaxTemperatureMapper extends Mapper<LongWritable, Text, Text, IntWr
         OVER_100
     }
 
+    //test
+
     private NcdcRecordParser parser = new NcdcRecordParser();
 
     @Override

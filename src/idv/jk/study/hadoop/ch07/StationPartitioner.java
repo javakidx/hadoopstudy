@@ -1,6 +1,6 @@
 package idv.jk.study.hadoop.ch07;
 
-import idv.jk.study.hadoop.ch05.v3.NcdcRecordParser;
+import idv.jk.study.hadoop.ch05.v4.avro.NcdcRecordParser;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;

@@ -41,4 +41,8 @@ public class NcdcRecordParser
     public int getAirTemperature() {
         return airTemperature;
     }
+
+    public String getStationId() {
+        return "";
+    }
 }

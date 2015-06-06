@@ -9,11 +9,17 @@ My practice for the sample code of Hadoop: The Definitive Guide
 
 ## Commands in chapters
 ### Myself
-1. 
-```
-        hadoop jar study-examples.jar idv.jk.study.hadoop.myself.StringReplace replace/replace.txt replace/output
-```
+1. `hadoop jar study-examples.jar idv.jk.study.hadoop.myself.StringReplace replace/replace.txt replace/output`
 
 ### Chapter 03
+#### Prerequisite
+Put the **quangle.txt** in *resource* to *hdfs://<materdominname>:9000/user/<yourusername>/input*.
+
+#### Commands
 1. `hadoop jar study-examples.jar idv.jk.study.hadoop.ed4.ch03.URLCat hdfs://javakid01:9000/user/javakid/input/quangle.txt`
-2. `hadoop jar study-examples.jar idv.jk.study.hadoop.ed4.ch03.FileSystemDoubleCat hdfs://javakid01:9000/user/javakid/input/quangle.txt`
+2. `hadoop jar study-examples.jar idv.jk.study.hadoop.ed4.ch03.FileSystemCat hdfs://javakid01:9000/user/javakid/input/quangle.txt`
+3. `hadoop jar study-examples.jar idv.jk.study.hadoop.ed4.ch03.FileSystemDoubleCat hdfs://javakid01:9000/user/javakid/input/quangle.txt`
+4. Run `FileCopyWithProgress`:
+    * Get file **1400-8.txt** via https://github.com/tomwhite/hadoop-book/blob/4e/input/docs/1400-8.txt
+    * Use the path of the **1400-8.txt** file as the first parameter
+    * `hadoop jar study-examples.jar idv.jk.study.hadoop.ed4.ch03.FileCopyWithProgress /home/javakid/study/hadoop/input/1400-8.txt hdfs://javakid01:9000/user/javakid/1400-8.txt`

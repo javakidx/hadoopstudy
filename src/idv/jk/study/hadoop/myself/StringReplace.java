@@ -10,6 +10,8 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import java.io.IOException;
 
 /**
+ * The main application to replace string with MapReduce.
+ *
  * Created by javakid on 2015/6/3.
  */
 public class StringReplace

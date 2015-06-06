@@ -5,7 +5,7 @@ My practice for the sample code of Hadoop: The Definitive Guide
 1. Set the directory for compiled classes.
 2. Switch to the directory containing compile classes and execute the command:
   ```
-jar cf stuty-examples.jar **/*
+        jar cf stuty-examples.jar **/*
   ```
 3. Use hadoop command to run the class. For example, executing 
 ```

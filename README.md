@@ -27,3 +27,4 @@ Put the **quangle.txt** in *resource* to *hdfs://<materdominname>:9000/user/<you
     * Get file **1400-8.txt** via https://github.com/tomwhite/hadoop-book/blob/4e/input/docs/1400-8.txt
     * Use the path of the **1400-8.txt** file as the first parameter
     * `hadoop jar study-examples.jar idv.jk.study.hadoop.ed4.ch03.FileCopyWithProgress /home/javakid/study/hadoop/input/1400-8.txt hdfs://javakid01:9000/user/javakid/1400-8.txt`
+5. `hadoop idv.jk.study.hadoop.ed4.ch03.ListStatus hdfs://javakid01:9000/ hdfs://javakid01:9000/user/javakid`

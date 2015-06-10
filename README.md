@@ -1,5 +1,5 @@
 # hadoopstudy
-My practice for the sample codes in Hadoop: The Definitive Guide. Most of these codes are the same as the sample codes in this book.
+My practice for the sample codes in [Hadoop: The Definitive Guide](http://www.amazon.com/gp/product/1491901632/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491901632&linkCode=as2&tag=javakid-20&linkId=EG7SJOTMV7VTBQDT). Most of these codes are the same as the sample codes in this book.
 Please visit [Hadoop Book](http://hadoopbook.com/) for more information.
 ## How to execute
 

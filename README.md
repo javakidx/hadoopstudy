@@ -1,5 +1,5 @@
 # hadoopstudy
-My practice for the sample code of Hadoop: The Definitive Guide
+My practice for the sample codes in Hadoop: The Definitive Guide. Most of these codes are the same as the sample codes in this book.
 ## How to execute
 
 1. Set the directory for compiled classes.

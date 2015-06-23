@@ -39,7 +39,11 @@ public class SequenceFileWriteDemo
 
         try
         {
-            writer = SequenceFile.createWriter(fs, conf, path, key.getClass(), value.getClass());
+            //writer = SequenceFile.createWriter(fs, conf, path, key.getClass(), value.getClass()); //deprecated in 2.6.0
+            writer = SequenceFile.createWriter(conf,
+                                                SequenceFile.Writer.file(path),
+                                                SequenceFile.Writer.keyClass( key.getClass() ),
+                                                SequenceFile.Writer.valueClass( value.getClass()));
             for(int i = 0; i < 100; i++)
             {
                 key.set(100 - i);

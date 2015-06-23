@@ -28,3 +28,10 @@ Put the **quangle.txt** in *resource* to *hdfs://<materdominname>:9000/user/<you
     * Use the path of the **1400-8.txt** file as the first parameter
     * `hadoop jar study-examples.jar idv.jk.study.hadoop.ed4.ch03.FileCopyWithProgress /home/javakid/study/hadoop/input/1400-8.txt hdfs://javakid01:9000/user/javakid/1400-8.txt`
 5. `hadoop idv.jk.study.hadoop.ed4.ch03.ListStatus hdfs://javakid01:9000/ hdfs://javakid01:9000/user/javakid`
+
+### Chapter 05
+#### Commands
+1. Writing a Sequence File:  
+  `hadoop idv.jk.study.hadoop.ed4.ch05.SequenceFileWriteDemo numbers.seq`
+2. Reading a Sequence File:  
+    `hadoop idv.jk.study.hadoop.ed4.ch05.SequenceFileReadDemo numbers.seq`

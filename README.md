@@ -30,6 +30,9 @@ Put the **quangle.txt** in *resource* to *hdfs://<materdominname>:9000/user/<you
 5. `hadoop idv.jk.study.hadoop.ed4.ch03.ListStatus hdfs://javakid01:9000/ hdfs://javakid01:9000/user/javakid`
 
 ### Chapter 05
+#### Prerequisite
+1. If `com.google.common.base.Preconditions` is not found, import `guava-11.0.2.jar` which is located in `/opt/hadoop-2.6.0/share/hadoop/common/lib` in my case.
+
 #### Commands
 1. Writing a Sequence File:  
   `hadoop idv.jk.study.hadoop.ed4.ch05.SequenceFileWriteDemo numbers.seq`

@@ -35,3 +35,7 @@ Put the **quangle.txt** in *resource* to *hdfs://<materdominname>:9000/user/<you
   `hadoop idv.jk.study.hadoop.ed4.ch05.SequenceFileWriteDemo numbers.seq`
 2. Reading a Sequence File:  
     `hadoop idv.jk.study.hadoop.ed4.ch05.SequenceFileReadDemo numbers.seq`
+    
+### Chapter 06
+#### Commands
+1. `hadoop idv.jk.study.hadoop.ed4.ch06.ConfigurationPrinter -conf conf/hadoop-localhost.xml | grep yarn.resourcemanager.address=`
